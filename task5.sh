@@ -26,7 +26,5 @@ for remote_branch in $remote_branches; do
         git commit -m "$commit_message"
 
         git push origin $branch_name
-
-        echo "Updated and pushed changes for branch $branch_name."
 		
 done
