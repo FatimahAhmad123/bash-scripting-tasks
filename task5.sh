@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# Remote repo
-remote_repository="https://github.com/FatimahAhmad123/simple_project_cpp.git"
-
 # Local repo
 cd /home/nabeel/Desktop/simple_project_cpp
 
