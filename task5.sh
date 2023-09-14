@@ -14,17 +14,21 @@ for remote_branch in $remote_branches; do
     
     branch_name="${remote_branch#refs/heads/}" # Extracting branch name
 
-    git checkout $branch_name
+    # Checkout to branch
+	git checkout $branch_name
 
-
+	# Pull changes from remote repo
     git pull origin $branch_name
 	
+	# Stage chnages
+    git add .
 
-        git add .
+	# Commit changes
+    commit_message="Auto-commit at $(date +'%Y-%m-%d %H:%M:%S')"
 
-        commit_message="Auto-commit at $(date +'%Y-%m-%d %H:%M:%S')"
-        git commit -m "$commit_message"
+    git commit -m "$commit_message"
 
-        git push origin $branch_name
+	# Push changes to remote repo
+    git push origin $branch_name
 		
 done
