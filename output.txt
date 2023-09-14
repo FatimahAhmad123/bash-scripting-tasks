@@ -1,0 +1,2 @@
+/home/nabeel/Desktop/mydirectory/file1.txt:7:Fatimah
+/home/nabeel/Desktop/mydirectory/helloWorld.txt:1:HelloofatimahWorld
