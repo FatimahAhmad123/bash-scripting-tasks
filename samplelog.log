@@ -1,0 +1,17 @@
+info: New logger created
+info: enabled service: execution_management, exchange: binance
+info: http connection to exchange established
+error: unable to create loopback connection
+error: unable to open epoll ws connection
+debug: Creating new http session on uri: api.binance.com
+debug: place new order for binance spot market | symbol BTC
+trace: Header Name: Host Value: api.binance.com
+trace: Header Name: User-Agent Value: Boost.Beast/300
+trace: Sending new request Method: GET Target: /api/v3/exchangeInfo
+trace: Request sent successfully
+warning: API limit reached
+error
+error
+warning
+error
+warning new
